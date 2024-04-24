@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <header>
+            <div class="switch">
+                <div class="flicker"></div>
+                <div class="moon"></div>
+            </div>
+        </header>
+        <section class="main">
+            <div class="container">
+                <i class="far fa-sun"></i>
+                <input type="range" value="100" min="10" max="100">
+                <i class="fas fa-sun"></i>
+            </div>
+        </section>
+        <div class="slider-picture">
+            <div class="slider">
+                <div class="slider-item">
+                    <img src="./1.jpg">
+                </div>
+                <button type="button" class="prev"><i
+                        class="fa fa-chevron-left"></i></button>
+                <button type="button" class="next"><i
+                        class="fa fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <section class="last">
+            <div class="container-add">
+                <h2>
+                    TO DO LIST APP
+                </h2>
+
+                <h1>
+                    ADD item
+                </h1>
+                <div class="row">
+                    <input type="text" class="write">
+                </div>
+                <div class="buttons">
+                    <button class="add">Add to list</button>
+                    <button class="clear">cleare to do list</button>
+                </div>
+                <div class="box">
+                    <ul class="ull">
+                        <li class="li1">
+                            <span class="text">123</span>
+                            <i class="fa fa-trash"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+    </body>
+</html>
